@@ -47,21 +47,18 @@ Home Server
 * ✅ Jellyfin Media Server
 * ✅ File Browser
 * ✅ SMB Network Shares
-* 🚧 AdGuard Home (Configuration in Progress)
 
 ## In Progress
 
-🟡 AdGuard Home
+🟡 🚧 AdGuard Home
 
 ## Future Plans
 
 * Homepage Dashboard
 * Nextcloud
 * Immich Photo Backup
-* Monitoring with Grafana
+* Monitoring with Prometheus & Grafana
 * Automated Snapshots
-* Prometheus
-* Grafana
 
 ## Project Goals
 
@@ -78,4 +75,4 @@ This project repurposes an older desktop computer into a powerful home server fo
 
 🟢 Active Development
 
-The server is currently running OpenMediaVault, Tailscale, and Jellyfin successfully. AdGuard Home and additional self-hosted services are planned for future deployment.
+The server is currently running OpenMediaVault, Tailscale, File Browser and Jellyfin successfully. AdGuard Home and additional self-hosted services are planned for future deployment.
