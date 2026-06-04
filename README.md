@@ -101,8 +101,8 @@ This project is shared for educational and documentation purposes.
 
 If this project helped you, consider supporting its development.
 
-UPI: udayamurthy21-1@okaxis   OR
-BUYMEACOFFE: https://buymeacoffee.com/udhayamoorthy
+UPI: udayamurthy21-1@okaxis   OR                      
+BUYMEACOFFEE: https://buymeacoffee.com/udhayamoorthy
 
 ```
 ```
