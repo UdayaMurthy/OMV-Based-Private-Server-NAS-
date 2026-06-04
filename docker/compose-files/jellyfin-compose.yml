@@ -4,7 +4,7 @@ services:
     container_name: jellyfin
     network_mode: host
     volumes:
-      - /srv/dev-disk-by-uuid-CCF69206F691F146/Media/Config:/config
-      - /srv/dev-disk-by-uuid-CCF69206F691F146/Media/Cache:/cache
-      - /srv/dev-disk-by-uuid-CCF69206F691F146:/data
+      - /srv/dev-disk-by-uuid-${DRIVE_UUID}/Media/Config:/config
+      - /srv/dev-disk-by-uuid-${DRIVE_UUID}/Media/Cache:/cache
+      - /srv/dev-disk-by-uuid-C${DRIVE_UUID}:/data
     restart: unless-stopped
