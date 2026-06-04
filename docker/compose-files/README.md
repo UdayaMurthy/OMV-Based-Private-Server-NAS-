@@ -7,4 +7,4 @@ Media streaming server.
 Web-based file management interface.
 
 ### AdGuard Home
-DNS filtering and ad blocking service.
+DNS filtering and ad blocking service (In Progress).
