@@ -1,0 +1,13 @@
+services:
+  filebrowser:
+    image: filebrowser/filebrowser:latest
+    container_name: filebrowser
+    ports:
+      - 8080:80
+    volumes:
+      - /srv/dev-disk-by-uuid-CCF69206F691F146:/srv
+      - /srv/dev-disk-by-uuid-CCF69206F691F146/Media/filebrowser.db:/database/filebrowser.db
+    environment:
+      - PID=1000
+      - PGID=100
+    restart: unless-stopped
