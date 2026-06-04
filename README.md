@@ -1,3 +1,8 @@
+## Why I Built This
+
+I wanted to build a reliable home server for media streaming,
+network storage, backups, and self-hosting while learning Linux,system administration, and networking instead of relying on multiple paid services.
+
 ## 📚 Documentation
 
 ### Network
