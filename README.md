@@ -97,5 +97,11 @@ This repository primarily serves as documentation for a personal homelab project
 
 This project is shared for educational and documentation purposes.
 
+## 🫶 Support
+
+If this project helped you, consider supporting its development.
+
+UPI: udayamurthy21-1@okaxis
+
 ```
 ```
