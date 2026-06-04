@@ -1,1 +1,10 @@
-YML file for Jellyfin
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    network_mode: host
+    volumes:
+      - /srv/dev-disk-by-uuid-CCF69206F691F146/Media/Config:/config
+      - /srv/dev-disk-by-uuid-CCF69206F691F146/Media/Cache:/cache
+      - /srv/dev-disk-by-uuid-CCF69206F691F146:/data
+    restart: unless-stopped
