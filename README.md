@@ -1,78 +1,103 @@
-# OMV-Based-Private-Server-NAS
+---
 
-A self-hosted home server built using OpenMediaVault and Debian.
+## 📚 Documentation
 
-## Features
+### Network
 
-* OpenMediaVault NAS
-* Docker Services
-* Tailscale Remote Access
-* Jellyfin Media Streaming
-* AdGuard Home DNS Filtering (In Progress)
-* File Browser (Web File Manager)
-* SMB Network Shares
-* Automated Backup Planning
-* Remote Administration
+* `docs/network.md` — Network architecture and remote access configuration
 
-## Hardware
+### OpenMediaVault
 
-* **CPU:** Intel Core i3 Processor
-* **RAM:** 2 GB (built from an older desktop system; upgrade planned in the future)
-* **OS Drive:** 256 GB HDD
-* **Storage Drive:** 1 TB HDD
+* `docs/omv/storage.md` — Storage configuration
+* `docs/omv/shared-folders.md` — Shared folder layout
+* `docs/omv/users-and-permissions.md` — User and permission management
 
-## Network Architecture
+### Recovery
+
+* `docs/disaster-recovery.md` — Recovery and rebuild procedures
+* `docs/changelog.md` — Project updates and milestones
+
+### Docker
+
+* `docker/setup.md` — Docker installation and configuration
+* `docker/jellyfin.md` — Jellyfin deployment documentation
+* `docker/filebrowser.md` — File Browser deployment documentation
+* `docker/adguard.md` — AdGuard Home deployment documentation
+
+---
+
+## 📂 Repository Structure
 
 ```text
-Internet
-    │
-Router
-    │
-Home Server
-├── OpenMediaVault
-├── Docker Engine
-│   ├── Jellyfin
-│   ├── File Browser
-│   └── AdGuard Home
-├── SMB Shares
-└── Tailscale VPN
+OMV-Based-Private-Server-NAS
+│
+├── docs
+│   ├── network.md
+│   ├── disaster-recovery.md
+│   ├── changelog.md
+│   └── omv
+│       ├── storage.md
+│       ├── shared-folders.md
+│       └── users-and-permissions.md
+│
+├── docker
+│   ├── setup.md
+│   ├── jellyfin.md
+│   ├── filebrowser.md
+│   ├── adguard.md
+│   └── compose-files
+│
+└── README.md
 ```
 
-## Current/Completed Services
+---
 
-* ✅ OpenMediaVault
-* ✅ Debian Installation
-* ✅ Docker Environment
-* ✅ Tailscale Remote Access
-* ✅ Jellyfin Media Server
-* ✅ File Browser
-* ✅ SMB Network Shares
+## 🗺️ Roadmap
 
-## In Progress
+### Phase 1 — Core Infrastructure
 
-🟡 🚧 AdGuard Home
+* [x] Debian Installation
+* [x] OpenMediaVault Setup
+* [x] Docker Environment
+* [x] Jellyfin Deployment
+* [x] File Browser Deployment
+* [x] SMB Network Shares
+* [x] Tailscale Remote Access
 
-## Future Plans
+### Phase 2 — Network Services
 
-* Homepage Dashboard
-* Nextcloud
-* Immich Photo Backup
-* Monitoring with Prometheus & Grafana
-* Automated Snapshots
+* [ ] AdGuard Home
+* [ ] Homepage Dashboard
 
-## Project Goals
+### Phase 3 — Self-Hosted Applications
 
-This project repurposes an older desktop computer into a powerful home server for:
+* [ ] Immich
+* [ ] Nextcloud
 
-* Centralized file storage
-* Secure remote access
-* Media streaming
-* Network-wide ad blocking
-* Self-hosted applications
-* Docker-based services
+### Phase 4 — Monitoring & Automation
 
-## Project Status
+* [ ] Prometheus
+* [ ] Grafana
+* [ ] Automated Backups
+* [ ] Automated Snapshots
 
-🟢 Active Development
+---
 
-The server is currently running OpenMediaVault, Tailscale, File Browser and Jellyfin successfully. AdGuard Home and additional self-hosted services are planned for future deployment.
+## 📸 Screenshots
+
+Screenshots will be added as services are finalized and documented.
+
+---
+
+## 🤝 Contributing
+
+This repository primarily serves as documentation for a personal homelab project. Suggestions and ideas are welcome.
+
+---
+
+## 📜 License
+
+This project is shared for educational and documentation purposes.
+
+```
+```
