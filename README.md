@@ -5,11 +5,13 @@ A self-hosted home server built using OpenMediaVault and Debian.
 ## Features
 
 * OpenMediaVault NAS
+* Docker Services
 * Tailscale Remote Access
 * Jellyfin Media Streaming
-* AdGuard Home DNS Filtering
+* AdGuard Home DNS Filtering (In Progress)
+* File Browser (Web File Manager)
 * SMB Network Shares
-* Automated Backups
+* Automated Backup Planning
 * Remote Administration
 
 ## Hardware
@@ -24,24 +26,32 @@ A self-hosted home server built using OpenMediaVault and Debian.
 ```text
 Internet
     │
-    ▼
 Router
     │
-    ▼
 Home Server
 ├── OpenMediaVault
-├── Jellyfin
-├── AdGuard Home
-├── Tailscale
-└── Docker Containers
+├── Docker Engine
+│   ├── Jellyfin
+│   ├── File Browser
+│   └── AdGuard Home
+├── SMB Shares
+└── Tailscale VPN
 ```
 
-## Current Services
+## Current/Completed Services
 
 * ✅ OpenMediaVault
-* ✅ Tailscale
-* ✅ Jellyfin
+* ✅ Debian Installation
+* ✅ Docker Environment
+* ✅ Tailscale Remote Access
+* ✅ Jellyfin Media Server
+* ✅ File Browser
+* ✅ SMB Network Shares
 * 🚧 AdGuard Home (Configuration in Progress)
+
+## In Progress
+
+🟡 AdGuard Home
 
 ## Future Plans
 
@@ -50,6 +60,8 @@ Home Server
 * Immich Photo Backup
 * Monitoring with Grafana
 * Automated Snapshots
+* Prometheus
+* Grafana
 
 ## Project Goals
 
