@@ -10,10 +10,10 @@ SMB Network Shares
 Automated Backups
 Remote Administration
 Hardware
-CPU: [Add CPU]
-RAM: [Add RAM]
-OS Drive: [Add SSD]
-Storage Drive: [Add HDD]
+CPU: Intel i3 Processor
+RAM: 2 GB (Since it is made with the old desktop device. So RAM will be upgraded in future)
+OS Drive: 256GB HDD
+Storage Drive: 1TB HDD
 Network Architecture
 
 Internet
@@ -25,9 +25,10 @@ Home Server
 ├── Jellyfin
 ├── AdGuard Home
 └── Tailscale
+└── Docker Containers
 
-Future Plans
-Docker Containers
+Future Plans:
+
 Homepage Dashboard
 Nextcloud
 Immich Photo Backup
