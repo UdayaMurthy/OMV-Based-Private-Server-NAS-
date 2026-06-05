@@ -107,7 +107,6 @@ This project is shared for educational and documentation purposes.
 If this project helped you, consider supporting its development.
 
 UPI: udayamurthy21-1@okaxis   OR                      
-BUYMEACOFFEE: https://buymeacoffee.com/udhayamoorthy
-
+BUYMEACOFFEE: <a href='https://ko-fi.com/M8C120TODT' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 ```
 ```
